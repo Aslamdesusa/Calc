@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    background: whitesmoke;
+    justify-content: center;
+    align-items: center;
+}
+div {
+    width: 325px;
+    margin: auto;
+}
+#answer{
+    width: 320px;
+    height: 45px;
+    font-size: 38px;
+    background: whitesmoke;
+    border: 2px solid #333;
+    padding: 20px;
+    text-align: right;
+}
+.button{
+    width: 80px;
+    height: 80px;
+    float: left;
+    color: white;
+    font-size: 28px;
+    border: 1px solid darkgreen;
+    background: black;
+}
+
+.button1{
+    width: 160px;
+    height: 80px;
+    float: left;
+    color: white;
+    font-size: 28px;
+    border: 1px solid #353;
+    background: #272822;
+}
+.button:hover{
+    background: black;
+    cursor: pointer;
+    font-size: 35px;
+}
+.button:active{
+    background: #7CFC00;
+    font-size: 40px;
+}
+
+.button1:hover{
+    background: black;
+    cursor: pointer;
+    font-size: 35px;
+}
+.button1:active{
+    background: #7CFC00;
+    font-size: 40px;
+}
